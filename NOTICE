@@ -1,0 +1,16 @@
+# NOTICE
+
+This project was developed as an independent educational path planning simulator.
+The algorithm design and visualization ideas were inspired by PythonRobotics
+(https://github.com/AtsushiSakai/PythonRobotics), which is also MIT-licensed.
+
+PythonRobotics Copyright (c) 2016 - now Atsushi Sakai and other contributors.
+
+This project re-implements the A* and RRT algorithms with a reorganized
+project structure, and adds features including batch testing, CSV export,
+and systematic algorithm comparison that are not present in the original
+PythonRobotics demos.
+
+No source code from PythonRobotics was directly copied. All code in this
+project was written independently, using algorithmic concepts that are
+standard in the robotics literature.

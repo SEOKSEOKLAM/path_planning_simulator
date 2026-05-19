@@ -1,0 +1,45 @@
+path_planning_simulator/
+|-- .gitignore
+|-- LICENSE
+|-- NOTICE
+|-- README.md
+|-- algorithms
+|   |-- __init__.py
+|   |-- astar.py
+|   |-- collision.py
+|   +-- rrt.py
+|-- assets
+|   |-- astar_demo.png
+|   |-- astar_rrt_comparison.png
+|   |-- batch_metrics_summary.png
+|   +-- rrt_demo.png
+|-- docs
+|   |-- ALGORITHM_EXPLANATION.md
+|   |-- GITHUB_CHECKLIST.md
+|   |-- INTERVIEW_NOTES.md
+|   |-- PROJECT_REPORT.md
+|   |-- RESUME_DESCRIPTION.md
+|   +-- RUN_AUDIT.md
+|-- evaluation
+|   |-- __init__.py
+|   |-- batch_test.py
+|   +-- metrics.py
+|-- main.py
+|-- maps
+|   |-- __init__.py
+|   |-- grid_map.py
+|   +-- obstacle_generator.py
+|-- outputs
+|   |-- figures
+|   |   |-- astar_demo.png
+|   |   |-- astar_rrt_comparison.png
+|   |   |-- batch_metrics_summary.png
+|   |   +-- rrt_demo.png
+|   +-- results
+|       |-- batch_results.csv
+|       +-- benchmark_summary.md
+|-- project_tree.txt
+|-- requirements.txt
++-- visualization
+    |-- __init__.py
+    +-- plotter.py
