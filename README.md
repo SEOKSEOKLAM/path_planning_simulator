@@ -159,13 +159,8 @@ python main.py --algo both
 | 平均運行時間 | 15.8 ms | 36.0 ms |
 | 平均搜索節點數 | 825 | 312 |
 
-## 10. 簡歷描述
 
-> 基於 Python 構建二維柵格地圖仿真環境，實現障礙物生成、起終點設置與路徑可視化。實現 A\* 與 RRT 路徑規劃算法，完成最短路徑搜索、隨機樹擴展、步長控制與碰撞檢測。設計批量測試流程，對不同地圖規模和障礙物密度下的路徑長度、運行時間、節點數及成功率進行評估。
-
-更多版本見 [docs/RESUME_DESCRIPTION.md](docs/RESUME_DESCRIPTION.md)。
-
-## 11. 後續改進方向
+## 10. 後續改進方向
 
 - [ ] **RRT\*** — 漸進最優 RRT 變體
 - [ ] **Informed RRT\*** — 橢圓採樣加速收斂
@@ -176,16 +171,13 @@ python main.py --algo both
 - [ ] **ROS2 集成** — 發布 `nav_msgs/Path`
 - [ ] **三維擴展** — 無人機路徑規劃
 
-## 12. 項目文檔
+## 11. 項目文檔
 
 - [項目報告（中文）](docs/PROJECT_REPORT.md)
 - [算法詳解](docs/ALGORITHM_EXPLANATION.md)
-- [面試講解稿（中文）](docs/INTERVIEW_NOTES.md)
-- [簡歷描述](docs/RESUME_DESCRIPTION.md)
 - [運行審計日誌](docs/RUN_AUDIT.md)
-- [GitHub 上傳清單](docs/GITHUB_CHECKLIST.md)
 
-## 13. 致謝
+## 12. 致謝
 
 本項目算法思路與可視化設計參考了 [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics)（MIT License, Copyright (c) 2016 Atsushi Sakai）。
 
@@ -198,6 +190,6 @@ python main.py --algo both
 
 詳見 [NOTICE](NOTICE)。
 
-## 14. 開源協議
+## 13. 開源協議
 
 MIT License — 詳見 [LICENSE](LICENSE)。
